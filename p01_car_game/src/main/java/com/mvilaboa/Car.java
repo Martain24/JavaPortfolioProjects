@@ -18,7 +18,7 @@ public class Car {
     }
 
     public void setCarBrand(String carBrand) {
-        this.carBrand = carBrand.substring(0, 1).toUpperCase() + 
+        this.carBrand = carBrand.substring(0, 1).toUpperCase() +
                         carBrand.substring(1).toLowerCase();
     }
 
